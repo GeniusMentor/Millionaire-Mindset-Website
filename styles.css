@@ -110,7 +110,7 @@ body{
     aspect-ratio:16/9;
     width:100%;
     background:#000;
-    padding:2rem;
+    padding:0 2rem;
     position:relative;
 }
 
