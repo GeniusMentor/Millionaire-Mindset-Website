@@ -109,7 +109,6 @@ body{
 .container-collapsed{
     max-width:100%;
     background:#000;
-    padding:0 2rem;
     position:relative;
 }
 
