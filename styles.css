@@ -109,7 +109,6 @@ body{
 .container-collapsed{
     aspect-ratio:16/9;
     width:100%;
-    min-height:fit-content;
     background:#000;
     padding:2rem;
     position:relative;
@@ -230,8 +229,13 @@ footer{
         flex-direction:column;
     }
     
-    .second-row{
+    .title-and-description{
         margin-right:0;
+    }
+
+    .container-collapsed{
+        aspect-ratio:initial;
+        min-height:fit-content;
     }
 
     .getting-started{
