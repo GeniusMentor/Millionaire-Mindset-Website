@@ -110,6 +110,7 @@ body{
     max-width:100%;
     background:#000;
     position:relative;
+    height:fit-content;
 }
 
 .container-expanded{
