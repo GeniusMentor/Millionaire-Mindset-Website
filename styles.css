@@ -107,8 +107,7 @@ body{
 }
 
 .container-collapsed{
-    aspect-ratio:16/9;
-    width:100%;
+    max-width:100%;
     background:#000;
     padding:0 2rem;
     position:relative;
@@ -231,11 +230,6 @@ footer{
     
     .title-and-description{
         margin-right: 0rem ;
-    }
-
-    .container-collapsed{
-        aspect-ratio:fit-content/fit-content;
-        /* height:fit-content; */
     }
 
     .getting-started{
