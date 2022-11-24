@@ -230,12 +230,12 @@ footer{
     }
     
     .title-and-description{
-        margin-right:0;
+        margin-right: 0rem ;
     }
 
     .container-collapsed{
-        aspect-ratio:initial;
-        min-height:fit-content;
+        aspect-ratio:fit-content/fit-content;
+        /* height:fit-content; */
     }
 
     .getting-started{
