@@ -104,9 +104,8 @@ body{
     max-width:100%;
     background:#000;
     position:relative;
-    max-height:fit-content;
     display:grid;
-    place-content:center;
+    place-items:center;
 }
 
 .container-expanded{
