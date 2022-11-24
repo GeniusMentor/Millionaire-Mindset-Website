@@ -15,7 +15,7 @@ body{
     font-size:1.5rem;
 } */
 
-.first-part{
+.hero{
     height:100vh;
     background:url(Assets/Images/mainPic.jpg);
     padding:1rem 1rem 0;
@@ -61,7 +61,7 @@ body{
     padding:0;
 } */
 
-.second-row{
+.title-and-description{
     align-self:flex-end;
     width:fit-content;
     margin:auto 0;
@@ -77,7 +77,7 @@ body{
 .body{
     display:flex;
     justify-content:space-between;
-    gap:5rem;
+    gap:4rem;
     min-height:100vh;
     display:flex;
     padding:5rem 2rem 7.5rem;
@@ -109,6 +109,7 @@ body{
 .container-collapsed{
     aspect-ratio:16/9;
     width:100%;
+    min-height:fit-content;
     background:#000;
     padding:2rem;
     position:relative;
@@ -202,19 +203,20 @@ footer{
     padding:4rem 2rem;
     display:flex;
     background:#484848;
-    display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
 }
 
 .footer-navigation{
-    gap:2.5rem;
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
 }
 
-.payment{
+/* .payment{
     justify-content:space-evenly;
     display:flex;
     gap:1rem;
-}
+} */
 
 @media(min-width:1025px) {
     .body{
@@ -232,6 +234,10 @@ footer{
         margin-right:0;
     }
 
+    .getting-started{
+        margin-top:4rem;
+    }
+
     .start-btn-holder{
         justify-content:center;
     }
@@ -242,11 +248,6 @@ footer{
 
     .payment{
         justify-content:space-evenly;
-    }
-
-    .footer-navigation{
-        flex-direction:column;
-        gap:.5rem;
     }
 
 }
