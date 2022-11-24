@@ -55,12 +55,6 @@ body{
     padding-bottom:.5rem;
 }
 
-/* .start-link{
-    width:53px;
-    background:none;
-    padding:0;
-} */
-
 .title-and-description{
     align-self:flex-end;
     width:fit-content;
@@ -114,6 +108,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
+    overflow:hidden;
 }
 
 .container-expanded{
