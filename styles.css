@@ -104,10 +104,9 @@ body{
     max-width:100%;
     background:#000;
     position:relative;
-    height:fit-content;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    max-height:fit-content;
+    display:grid;
+    place-content:center;
 }
 
 .container-expanded{
